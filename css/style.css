@@ -1,0 +1,128 @@
+#cabecalho ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+
+}
+
+#cabecalho ul{
+  background-color: black; 
+}
+
+#cabecalho ul li{
+  display: inline;
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+}
+#cabecalho ul li a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+#cabecalho ul li a:hover{
+  background-color: red;
+  transition: .3s;
+  
+}
+
+#cabecalho ul ul{
+  display: none;
+  position: absolute;
+  left: 0;
+}
+
+#cabecalho ul li:hover ul{
+  display: block;
+}
+
+#cabecalho ul ul{
+  width: 280px;
+  background-color: white;
+  color: black;
+}
+#cabecalho ul ul a{
+  color: black;
+  text-align: left;
+}
+#cabecalho ul ul li a{
+  background-color: white;
+}
+#cabecalho ul ul li a{
+  display: block;
+}
+#cabecalho ul li ul li a:hover{
+  background-color: rgb(245, 245, 245);
+  transition: .3s;
+}
+
+#cabecalho li#sobre {
+	float:right;
+}
+
+#cab{
+  background-color: rgb(26, 121, 26);
+}
+
+.eventos{
+  text-align: center;
+}
+
+.arredondar{
+  border-radius: 50%;
+}
+
+.borda{
+  border-width: 1px;
+  border-color: blue;
+  border-style: dashed;
+}
+
+
+input[type=text], input[type=email], input[type=tel], input[type=url], textarea, select {
+  width: 100%; /*escolher o comprimento do campo*/
+  padding: 12px 20px;/*escolhe a altura do campo*/
+  margin: 8px 0;/*define a margem do campo dentro da div*/
+  
+  border: 1px solid #ccc; /*define a cor da borda dos campos*/
+  border-radius: 4px; /*define a borda dos campos*/
+  box-sizing: border-box;/* define que os campos fiquem dentro da div*/
+}
+
+.button {
+  width: 100%;/*escolher o comprimento do campo*/
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;/*escolhe a altura do campo*/
+  margin: 8px 0;/*define a margem do campo dentro da div*/
+  border: none;/*define a cor da borda dos campos*/
+  border-radius: 4px; /*define a borda dos campos*/
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0c6d07;
+}
+
+.entrar {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 100px;
+  grid-row-gap: 0px;
+  grid-template-columns: auto auto;
+  padding: 40px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 14px;
+  padding: 0px; 
+}

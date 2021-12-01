@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Eventos - IFSP - Pirituba </title>
+  <link rel="shortcut icon" href="imagens\favicon.ico" />
+	<link rel="stylesheet" href="css\style.css">
+
+</head>
+
+<body>
+	<header>
+		<div id="cabecalho">
+			<ul>
+        <li><a href="index.html" target="_top">HOME</a></li>
+        <li><a href="eventos.html" target="_top">EVENTOS</a></li>
+        <li><a href="contato.html" target="_top">CONTATO</a></li>
+        <li>
+          <a href="#" target="_top">CURSOS</a>
+           <ul>
+             <li><a href="ADS.html" target="_top">Análise e Desenvolvimento de Sistemas</a></li>
+             <li><a href="ADS.html" target="_top">Engenharia de produção</a></li>
+           </ul>
+        </li>
+        <li><a href="entrar.html" target="_top">ENTRAR</a></li>
+        <li id="sobre"><a " href="sobre.html" target="_top">SOBRE</a></li>	
+			</ul>
+		</div>
+		<div id="cab">
+			<img src = 'imagens\Logo.jpg'/>
+    </div>
+  </header>
+  
+    <br>
+    <h1> Inscreva-se </h1>
+    <form>
+      <fieldset>
+        <label for="eventos">Evento<label><br>
+        <select name="assunto" required>
+        <option value> -- Selecione --</option>
+        <option value="voeSemAsa"> Voe sem asas </option>
+        <option value="festaJun"> Festa Junina </option>
+        <option value="semanaTecnologia"> Semana de tecnologia </option>
+        </select>
+  
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações de Acesso</legend>
+        <br>
+        <label for="input_usuario">Usuário</label>
+        <input type="text" name="usuario" id="input_usuario" required/><br><br>
+        <label for="input_senha">Senha</label>
+        <input type="password" name="senha" id="input_senha" required/><br><br>
+        <label for="input_confimaSenha">Confirme a Senha</label>
+        <input type="password" name="confimaSenha" id="input_confimaSenha" required/><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <br>
+        <label for="input_nomeCompleto"> Nome Completo </label>
+        <input type="text" name="nomeCompleto" id="input_nomeCompleto" required><br><br>
+        <label for="input_email"> E-mail </label>
+        <input type="email" name="email" id="input_email" required/><br><br>
+        <label for="input_telefone"> Celular (99) 99999-9999 </label>
+        <input type="tel" name="numero" id="input_telefone"/>
+        <br>
+        <fieldset>
+          <legend>Sexo</legend>
+          <label for="input_sexoM">Masculino</label>
+          <input type="radio" name="sexo" id="input_sexoM"/>
+          <label for="input_sexoF">Feminino</label>
+          <input type="radio" name="sexo" id="input_sexoF"/>
+        </fieldset><br>
+
+        <label for="input_date">Data de Nascimento</label>
+        <input type="date" name="date" id="input_date"><br><br>
+        <label for="input_corFavorita">Cor Favorita</label>
+        <input type="color" name="cor" id="input_corFavorita"><br><br>
+        <label for="input_github">Perfil no Github</label>
+        <input type="url" name="github" id="input_github">
+      </fieldset>
+      <p>
+        <button class="button" type="submit">Inscrever-se</button>
+        <button class="button" type="reset">Limpar</button>
+      </p>
+    </form>
+    <br><br>
+    <a href="https://www.facebook.com/ifsppirituba" target= "_blank" rel="external" title = "IFSP PIRITUBA" > <img src="imagens\facebook.png" width="40px"/></a>
+    <br/>
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+    <br><br><br>
+    <script src="script.js"></script>
+  </body>
+</html>
